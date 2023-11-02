@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>個人用ポートフォリオ</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    
+    <!-- Hero section -->
+    <script>
+        document.getElementById("selfIntroButton").addEventListener("click", function(event) {
+            event.preventDefault();  // デフォルトのクリック動作を無効化
+            document.getElementById("selfIntro").scrollIntoView({ behavior: "smooth" });
+        });
+        </script>
+    <div class="hero">
+       
+      <nav>
+        <h2 class="logo">Kounosuke<span>site</span></h2>
+        <ul>
+          <li><a href="#">ホーム</a></li>
+          <li><a href="#">ブログ</a></li>
+          <li><a href="#">ポートフォリオ</a></li>
+        </ul>
+        <a href="https://twitter.com/@kounosu761021" class="btn">お問い合わせ</a>
+      </nav>
+      <div class="button-container">
+        <a href="#selfIntro" class="button" id="selfIntroButton">軽く自己紹介</a>
+
+        <a href="index2.html" class="button">未制作</a>
+        <a href="index2.html" class="button">未制作</a>
+        <a href="index2.html" class="button">未制作</a>
+        <a href="index2.html" class="button">未制作</a>
+    </div>
+    
+      <div class="content">
+        <div class="body">
+          <div class="portfolioInfo">
+            <h4>Webエンジニア</h4>
+            <h1>Kounosuke<span>Site</span></h1>
+            <h3>HTML/CSS/Javascript</h3>
+            <div class="newslatter">
+              <form>
+                <input
+                  type="email"
+                  name="email"
+                  id="mail"
+                  placeholder="メールアドレスを入力"
+                />
+                <input type="submit" name="submit" value="お問い合わせ" />
+              </form>
+            </div>
+          </div>
+          <img src="BB81.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <section class="about">
+      <div class="main">
+        <img src="inu.png" alt="" />
+        <div class="about-text">
+            <section class="about" id="selfIntro"></section>
+          <h2>自己紹介</h2>
+          
+
+          <h5>生年月日2003年10月21日</h5>
+          <p>
+            幸之介といいます。何してきたかといわれるとサッカーしか思いつかないです。現在は情報系大学2年生で課題に追われています。
+            Java、JavaScript（最近はじめた）、PHPあとはHTML、CSSちょこっと使えます。
+            講義内でDockerを使ってLinuxサーバをうごかしたり、個人ではこれからVirtualBoxで動かしてみようかと…
+        　　
+
+         
+          </p>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- service section start -->
+    <div class="service">
+      <div class="title">
+        <h2>～ポートフォリオ～</h2>
+      </div>
+
+      <div class="box">
+        <div class="card">
+          <i class="fas fa-bars"> </i>
+          <h5>Linuxって何？</h5>
+          <div class="pra">
+            <p>
+              UNIXをベースにしたOSであるLinux。なにができるかを簡単に解説！
+              OSがわからない人向けにもおすすめしてます。基礎から学んでいこう👍
+              コマンドの使い方ものってるよ              
+            </p>
+            <p style="text-align: center">
+              <a href="index2.html" class="button">もっと読む</a>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <i class="fas fa-user"> </i>
+          <h5>未制作</h5>
+          <div class="pra">
+            <p>
+             未
+            </p>
+            <p style="text-align: center">
+              <a href="#" class="button">もっと読む</a>
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <i class="fas fa-bell"> </i>
+          <h5>未制作</h5>
+          <div class="pra">
+            <p>
+             未
+            </p>
+            <p style="text-align: center">
+              <a href="#" class="button">もっと読む</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Me -->
+    <div class="contact">
+      <p>気になる方は私にお問い合わせください。</p>
+      <a href="https://twitter.com/@kounosu761021" class="button-two">お問い合わせ</a>
+    </div>
+
+    <!-- footer -->
+    <footer>
+      <p>Instagram acount</p>
+      <p>Please follow me</p>
+      <ul class="socialEffect__box">
+        <li>
+          <a class="socialEffect__link icon-instagram" href="https://www.instagram.com/konosu_ke76"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </li>
+        
+        </li>
+      </ul>
+      <p class="end">mail:22fi041@ms.dendai.ac.jp</p>
+    </footer>
+  </body>
+</html>
